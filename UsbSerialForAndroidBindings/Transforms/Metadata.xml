@@ -1,0 +1,25 @@
+﻿<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+  <attr path="/api/package[@name='com.hoho.android.usbserial.driver']/class[@name='CdcAcmSerialDriver.CdcAcmSerialPort']/method[@name='closeInt' and count(parameter)=0]"
+        name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.hoho.android.usbserial.driver']/class[@name='CdcAcmSerialDriver.CdcAcmSerialPort']/method[@name='openInt' and count(parameter)=1 and parameter[1][@type='android.hardware.usb.UsbDeviceConnection']]"
+        name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.hoho.android.usbserial.driver']/class[@name='Ch34xSerialDriver.Ch340SerialPort']/method[@name='closeInt' and count(parameter)=0]"
+        name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.hoho.android.usbserial.driver']/class[@name='Ch34xSerialDriver.Ch340SerialPort']/method[@name='openInt' and count(parameter)=1 and parameter[1][@type='android.hardware.usb.UsbDeviceConnection']]"
+        name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.hoho.android.usbserial.driver']/class[@name='Cp21xxSerialDriver.Cp21xxSerialPort']/method[@name='closeInt' and count(parameter)=0]"
+        name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.hoho.android.usbserial.driver']/class[@name='Cp21xxSerialDriver.Cp21xxSerialPort']/method[@name='openInt' and count(parameter)=1 and parameter[1][@type='android.hardware.usb.UsbDeviceConnection']]"
+        name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.hoho.android.usbserial.driver']/class[@name='ProlificSerialDriver.ProlificSerialPort']/method[@name='closeInt' and count(parameter)=0]"
+        name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.hoho.android.usbserial.driver']/class[@name='ProlificSerialDriver.ProlificSerialPort']/method[@name='openInt' and count(parameter)=1 and parameter[1][@type='android.hardware.usb.UsbDeviceConnection']]"
+        name="visibility">protected</attr>
+</metadata>

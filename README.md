@@ -1,0 +1,1 @@
+# xamarin-usb-serial-for-android-bindings
